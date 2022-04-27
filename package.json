@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_definitivo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^28.0.2",
+    "jest": "^28.0.2",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^13.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
