@@ -1,7 +1,7 @@
 import BasePage from "./BasePage";
 
-export default class FlightsPage extends BasePage{
-    constructor(){
+export default class FlightsPage extends BasePage{ //Se extiende para usar los metodos de Base Page
+    constructor(){ //Se mapean los campos de la pagina de vuelos
         super()
         this.mainDiv = '.main_search'
         this.inputs = {

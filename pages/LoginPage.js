@@ -1,7 +1,7 @@
 import BasePage from "./BasePage";
 
-export default class LoginPage extends BasePage{
-    constructor(){
+export default class LoginPage extends BasePage{ // extends para poder usar los metodos de Base Page
+    constructor(){ //se mapean los campos de la pagina Login
         super()
         this.navBar = "//div[@class='menu-wrapper']"
         this.inputEmail = "input[placeholder='Email']"

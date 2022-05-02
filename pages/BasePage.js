@@ -1,6 +1,7 @@
 export default class BasePage {
 
-    async getTitle(){
+    //Se crean funciones que son útiles a lo largo de todas las paginas
+    async getTitle(){  
         return await page.title()
     }
 
@@ -8,7 +9,7 @@ export default class BasePage {
         return await page.url()
     }
 
-    async getText(selector){
+    async getText(selector){ //Obtener texto de un selector
         try{
             await page.waitForSelector(selector)
             return await page.$eval(selector, (el)=>el.textContent)
