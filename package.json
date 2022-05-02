@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --forceExit"
+    "test": "jest --forceExit __test__/reservaUnVuelo.test.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +18,7 @@
     "puppeteer": "^13.6.0"
   },
   "devDependencies": {
+    "jest-html-reporters": "^3.0.6",
     "prettier": "^2.6.2"
   }
 }
